@@ -58,7 +58,7 @@ Could style this differently - use a datatable for filtering and keep consistent
                 <a asp-action="ToggleItem" asp-route-itemId="@item.Id" class="list-group-item">@item.Label</a>
             </div>
             <div class="col-md-3 pull-left">
-                <a class="list-group-item" asp-action="DeleteItem" asp-route-itemId="@item.Id">@Labels.Delete</a>
+                <a class="list-group-item btn" asp-action="DeleteItem" asp-route-itemId="@item.Id">@Labels.Delete</a>
             </div>
         }
     }
